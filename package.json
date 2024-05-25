@@ -1,0 +1,27 @@
+{
+  "name": "timetable-backend-api",
+  "version": "1.0.0",
+  "description": "ASSIGNMENT1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Pasindu Serasinghe",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chai": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.3.0",
+    "mongoose": "^6.6.5",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
